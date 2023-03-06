@@ -1,0 +1,10 @@
+server:
+  port: 8721
+spring:
+  application:
+    name: naming-service
+#Faz com que o eureka não se auto registre no sistema,é útil quando temos muitas instâncias  
+eureka:
+  client:
+    register-with-eureka: false
+    fetch-registry: false
