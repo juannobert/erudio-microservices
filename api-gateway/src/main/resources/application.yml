@@ -7,9 +7,9 @@ eureka:
 spring:
   application:
     name: api-gateway
-  cloud:
-    gateway:
-      discovery:
-        locator:
-          enabled: true #Ativando gateway para chamar os microsserviços pelo nome
-          lower-case-service-id: true #Vai aceitar o nome do microsserviço minúsculo
+  #cloud:
+   # gateway:
+    #  discovery:
+     #   locator:
+      #    enabled: true #Ativando gateway para chamar os microsserviços pelo nome
+       #   lower-case-service-id: true #Vai aceitar o nome do microsserviço minúsculo
